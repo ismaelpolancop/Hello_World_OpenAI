@@ -38,10 +38,6 @@ api_key = os.getenv('OPENAI_API_KEY')
 client = OpenAI(api_key=api_key)
 ```
 
-Then set the environment variable:
-```bash
-export OPENAI_API_KEY='your-api-key-here'
-```
 
 ## Usage
 
